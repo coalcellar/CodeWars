@@ -1,0 +1,2576 @@
+Index: .classpath
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .classpath	(revision )
++++ .classpath	(revision )
+@@ -0,0 +1,21 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<classpath>
++	<classpathentry kind="src" path="src"/>
++	<classpathentry kind="src" path="libs"/>
++	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
++	<classpathentry kind="lib" path="D:/yuna/eclipse-neon/workspace/lib/commons-collections-3.2.1.jar"/>
++	<classpathentry kind="lib" path="D:/yuna/eclipse-neon/workspace/lib/commons-configuration-1.6.jar"/>
++	<classpathentry kind="lib" path="D:/yuna/eclipse-neon/workspace/lib/commons-lang-2.5.jar"/>
++	<classpathentry kind="lib" path="D:/yuna/eclipse-neon/workspace/lib/commons-logging-1.1.1.jar"/>
++	<classpathentry kind="lib" path="D:/yuna/eclipse-neon/workspace/lib/org.eclipse.core.contenttype_3.4.1.R35x_v20090826-0451.jar"/>
++	<classpathentry kind="lib" path="D:/yuna/eclipse-neon/workspace/lib/org.eclipse.core.jobs_3.4.100.v20090429-1800.jar"/>
++	<classpathentry kind="lib" path="D:/yuna/eclipse-neon/workspace/lib/org.eclipse.core.resources_3.5.2.R35x_v20091203-1235.jar"/>
++	<classpathentry kind="lib" path="D:/yuna/eclipse-neon/workspace/lib/org.eclipse.core.runtime_3.5.0.v20090525.jar"/>
++	<classpathentry kind="lib" path="D:/yuna/eclipse-neon/workspace/lib/org.eclipse.equinox.common_3.5.1.R35x_v20090807-1100.jar"/>
++	<classpathentry kind="lib" path="D:/yuna/eclipse-neon/workspace/lib/org.eclipse.equinox.preferences_3.2.301.R35x_v20091117.jar"/>
++	<classpathentry kind="lib" path="D:/yuna/eclipse-neon/workspace/lib/org.eclipse.jdt.core_3.5.2.v_981_R35x.jar"/>
++	<classpathentry kind="lib" path="D:/yuna/eclipse-neon/workspace/lib/org.eclipse.osgi_3.5.2.R35x_v20100126.jar"/>
++	<classpathentry kind="lib" path="D:/yuna/eclipse-neon/workspace/lib/commons-codec-1.10.jar"/>
++	<classpathentry kind="lib" path="libs/slf4j-api-1.7.6.jar"/>
++	<classpathentry kind="output" path="bin"/>
++</classpath>
+Index: .settings/org.eclipse.jdt.core.prefs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .settings/org.eclipse.jdt.core.prefs	(revision )
++++ .settings/org.eclipse.jdt.core.prefs	(revision )
+@@ -0,0 +1,106 @@
++eclipse.preferences.version=1
++org.eclipse.jdt.core.compiler.annotation.inheritNullAnnotations=disabled
++org.eclipse.jdt.core.compiler.annotation.missingNonNullByDefaultAnnotation=ignore
++org.eclipse.jdt.core.compiler.annotation.nonnull=org.eclipse.jdt.annotation.NonNull
++org.eclipse.jdt.core.compiler.annotation.nonnull.secondary=
++org.eclipse.jdt.core.compiler.annotation.nonnullbydefault=org.eclipse.jdt.annotation.NonNullByDefault
++org.eclipse.jdt.core.compiler.annotation.nonnullbydefault.secondary=
++org.eclipse.jdt.core.compiler.annotation.nullable=org.eclipse.jdt.annotation.Nullable
++org.eclipse.jdt.core.compiler.annotation.nullable.secondary=
++org.eclipse.jdt.core.compiler.annotation.nullanalysis=disabled
++org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
++org.eclipse.jdt.core.compiler.codegen.methodParameters=do not generate
++org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
++org.eclipse.jdt.core.compiler.codegen.unusedLocal=preserve
++org.eclipse.jdt.core.compiler.compliance=1.8
++org.eclipse.jdt.core.compiler.debug.lineNumber=generate
++org.eclipse.jdt.core.compiler.debug.localVariable=generate
++org.eclipse.jdt.core.compiler.debug.sourceFile=generate
++org.eclipse.jdt.core.compiler.problem.annotationSuperInterface=warning
++org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
++org.eclipse.jdt.core.compiler.problem.autoboxing=ignore
++org.eclipse.jdt.core.compiler.problem.comparingIdentical=warning
++org.eclipse.jdt.core.compiler.problem.deadCode=warning
++org.eclipse.jdt.core.compiler.problem.deprecation=warning
++org.eclipse.jdt.core.compiler.problem.deprecationInDeprecatedCode=disabled
++org.eclipse.jdt.core.compiler.problem.deprecationWhenOverridingDeprecatedMethod=disabled
++org.eclipse.jdt.core.compiler.problem.discouragedReference=warning
++org.eclipse.jdt.core.compiler.problem.emptyStatement=ignore
++org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
++org.eclipse.jdt.core.compiler.problem.explicitlyClosedAutoCloseable=ignore
++org.eclipse.jdt.core.compiler.problem.fallthroughCase=ignore
++org.eclipse.jdt.core.compiler.problem.fatalOptionalError=disabled
++org.eclipse.jdt.core.compiler.problem.fieldHiding=ignore
++org.eclipse.jdt.core.compiler.problem.finalParameterBound=warning
++org.eclipse.jdt.core.compiler.problem.finallyBlockNotCompletingNormally=warning
++org.eclipse.jdt.core.compiler.problem.forbiddenReference=warning
++org.eclipse.jdt.core.compiler.problem.hiddenCatchBlock=warning
++org.eclipse.jdt.core.compiler.problem.includeNullInfoFromAsserts=disabled
++org.eclipse.jdt.core.compiler.problem.incompatibleNonInheritedInterfaceMethod=warning
++org.eclipse.jdt.core.compiler.problem.incompleteEnumSwitch=warning
++org.eclipse.jdt.core.compiler.problem.indirectStaticAccess=ignore
++org.eclipse.jdt.core.compiler.problem.localVariableHiding=ignore
++org.eclipse.jdt.core.compiler.problem.methodWithConstructorName=warning
++org.eclipse.jdt.core.compiler.problem.missingDefaultCase=ignore
++org.eclipse.jdt.core.compiler.problem.missingDeprecatedAnnotation=ignore
++org.eclipse.jdt.core.compiler.problem.missingEnumCaseDespiteDefault=disabled
++org.eclipse.jdt.core.compiler.problem.missingHashCodeMethod=ignore
++org.eclipse.jdt.core.compiler.problem.missingOverrideAnnotation=ignore
++org.eclipse.jdt.core.compiler.problem.missingOverrideAnnotationForInterfaceMethodImplementation=enabled
++org.eclipse.jdt.core.compiler.problem.missingSerialVersion=warning
++org.eclipse.jdt.core.compiler.problem.missingSynchronizedOnInheritedMethod=ignore
++org.eclipse.jdt.core.compiler.problem.noEffectAssignment=warning
++org.eclipse.jdt.core.compiler.problem.noImplicitStringConversion=warning
++org.eclipse.jdt.core.compiler.problem.nonExternalizedStringLiteral=ignore
++org.eclipse.jdt.core.compiler.problem.nonnullParameterAnnotationDropped=warning
++org.eclipse.jdt.core.compiler.problem.nonnullTypeVariableFromLegacyInvocation=warning
++org.eclipse.jdt.core.compiler.problem.nullAnnotationInferenceConflict=error
++org.eclipse.jdt.core.compiler.problem.nullReference=warning
++org.eclipse.jdt.core.compiler.problem.nullSpecViolation=error
++org.eclipse.jdt.core.compiler.problem.nullUncheckedConversion=warning
++org.eclipse.jdt.core.compiler.problem.overridingPackageDefaultMethod=warning
++org.eclipse.jdt.core.compiler.problem.parameterAssignment=ignore
++org.eclipse.jdt.core.compiler.problem.pessimisticNullAnalysisForFreeTypeVariables=warning
++org.eclipse.jdt.core.compiler.problem.possibleAccidentalBooleanAssignment=ignore
++org.eclipse.jdt.core.compiler.problem.potentialNullReference=ignore
++org.eclipse.jdt.core.compiler.problem.potentiallyUnclosedCloseable=ignore
++org.eclipse.jdt.core.compiler.problem.rawTypeReference=warning
++org.eclipse.jdt.core.compiler.problem.redundantNullAnnotation=warning
++org.eclipse.jdt.core.compiler.problem.redundantNullCheck=ignore
++org.eclipse.jdt.core.compiler.problem.redundantSpecificationOfTypeArguments=ignore
++org.eclipse.jdt.core.compiler.problem.redundantSuperinterface=ignore
++org.eclipse.jdt.core.compiler.problem.reportMethodCanBePotentiallyStatic=ignore
++org.eclipse.jdt.core.compiler.problem.reportMethodCanBeStatic=ignore
++org.eclipse.jdt.core.compiler.problem.specialParameterHidingField=disabled
++org.eclipse.jdt.core.compiler.problem.staticAccessReceiver=warning
++org.eclipse.jdt.core.compiler.problem.suppressOptionalErrors=disabled
++org.eclipse.jdt.core.compiler.problem.suppressWarnings=enabled
++org.eclipse.jdt.core.compiler.problem.syntacticNullAnalysisForFields=disabled
++org.eclipse.jdt.core.compiler.problem.syntheticAccessEmulation=ignore
++org.eclipse.jdt.core.compiler.problem.typeParameterHiding=warning
++org.eclipse.jdt.core.compiler.problem.unavoidableGenericTypeProblems=enabled
++org.eclipse.jdt.core.compiler.problem.uncheckedTypeOperation=warning
++org.eclipse.jdt.core.compiler.problem.unclosedCloseable=warning
++org.eclipse.jdt.core.compiler.problem.undocumentedEmptyBlock=ignore
++org.eclipse.jdt.core.compiler.problem.unhandledWarningToken=warning
++org.eclipse.jdt.core.compiler.problem.unnecessaryElse=ignore
++org.eclipse.jdt.core.compiler.problem.unnecessaryTypeCheck=ignore
++org.eclipse.jdt.core.compiler.problem.unqualifiedFieldAccess=ignore
++org.eclipse.jdt.core.compiler.problem.unusedDeclaredThrownException=ignore
++org.eclipse.jdt.core.compiler.problem.unusedDeclaredThrownExceptionExemptExceptionAndThrowable=enabled
++org.eclipse.jdt.core.compiler.problem.unusedDeclaredThrownExceptionIncludeDocCommentReference=enabled
++org.eclipse.jdt.core.compiler.problem.unusedDeclaredThrownExceptionWhenOverriding=disabled
++org.eclipse.jdt.core.compiler.problem.unusedExceptionParameter=ignore
++org.eclipse.jdt.core.compiler.problem.unusedImport=warning
++org.eclipse.jdt.core.compiler.problem.unusedLabel=warning
++org.eclipse.jdt.core.compiler.problem.unusedLocal=warning
++org.eclipse.jdt.core.compiler.problem.unusedObjectAllocation=ignore
++org.eclipse.jdt.core.compiler.problem.unusedParameter=ignore
++org.eclipse.jdt.core.compiler.problem.unusedParameterIncludeDocCommentReference=enabled
++org.eclipse.jdt.core.compiler.problem.unusedParameterWhenImplementingAbstract=disabled
++org.eclipse.jdt.core.compiler.problem.unusedParameterWhenOverridingConcrete=disabled
++org.eclipse.jdt.core.compiler.problem.unusedPrivateMember=warning
++org.eclipse.jdt.core.compiler.problem.unusedTypeParameter=ignore
++org.eclipse.jdt.core.compiler.problem.unusedWarningToken=warning
++org.eclipse.jdt.core.compiler.problem.varargsArgumentNeedCast=warning
++org.eclipse.jdt.core.compiler.source=1.8
+Index: src/customAbstract/ReflectTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/customAbstract/ReflectTest.java	(revision )
++++ src/customAbstract/ReflectTest.java	(revision )
+@@ -0,0 +1,99 @@
++package customAbstract;
++
++import java.io.BufferedReader;
++import java.io.FileReader;
++import java.io.IOException;
++import java.util.List;
++
++import org.eclipse.jdt.core.dom.AST;
++import org.eclipse.jdt.core.dom.ASTParser;
++import org.eclipse.jdt.core.dom.ASTVisitor;
++import org.eclipse.jdt.core.dom.BlockComment;
++import org.eclipse.jdt.core.dom.Comment;
++import org.eclipse.jdt.core.dom.CompilationUnit;
++import org.eclipse.jdt.core.dom.LineComment;
++
++public class ReflectTest {
++	
++	public static void main(String[] agrs) throws IOException {
++		String str = "C:/interpark/book/workspace/webapp/JavaSource/com/interpark/action/newmobile/shop/NMCartAction.java";
++//		String str = "C:/interpark/book/workspace/webapp/JavaSource/com/interpark/action/newmobile/talk/NMCelebrityAction.java";
++		String converted = readFileToString(str);
++		parse(converted);
++		
++	}
++	
++	public void doSomething(Class c) {
++/*
++		Method[] methods = c.getClass().getDeclaredMethods();
++		for (Method method : methods) {
++			System.out.println(method.getName());
++			System.out.println(method.getReturnType());
++		}
++*/
++	}
++
++	// use ASTParse to parse string
++	@SuppressWarnings("unchecked")
++	public static void parse(final String str) {
++		ASTParser parser = ASTParser.newParser(AST.JLS3);
++		parser.setSource(str.toCharArray());
++		parser.setKind(ASTParser.K_COMPILATION_UNIT);
++
++		final CompilationUnit cu = (CompilationUnit) parser.createAST(null);
++		
++		for (Comment comment : (List<Comment>) cu.getCommentList()) {
++			comment.accept(new CommentVisitor(cu, str));
++		}
++		
++	}
++
++	// read file content into a string
++	public static String readFileToString(String filePath) throws IOException {
++		StringBuilder fileData = new StringBuilder(1000);
++		BufferedReader reader = new BufferedReader(new FileReader(filePath));
++
++		char[] buf = new char[10];
++		int numRead = 0;
++		while ((numRead = reader.read(buf)) != -1) {
++			String readData = String.valueOf(buf, 0, numRead);
++			fileData.append(readData);
++			buf = new char[1024];
++		}
++
++		reader.close();
++		return fileData.toString();
++	}
++	
++	
++	
++}
++
++//comment visitor
++class CommentVisitor extends ASTVisitor {
++	CompilationUnit cu;
++	String source;
++
++	public CommentVisitor(CompilationUnit cu, String source) {
++		super();
++		this.cu = cu;
++		this.source = source;
++	}
++
++	public boolean visit(LineComment node) {
++		int start = node.getStartPosition();
++		int end = start + node.getLength();
++		String comment = source.substring(start, end);
++		System.out.println(comment);
++		return true;
++	}
++
++	public boolean visit(BlockComment node) {
++		int start = node.getStartPosition();
++		int end = start + node.getLength();
++		String comment = source.substring(start, end);
++		System.out.println(comment);
++		return true;
++	}
++
++}
+Index: src/codeWar6/Kata.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/codeWar6/Kata.java	(revision )
++++ src/codeWar6/Kata.java	(revision )
+@@ -0,0 +1,217 @@
++package codeWar6;
++
++import java.util.ArrayList;
++import java.util.HashMap;
++import java.util.LinkedList;
++import java.util.List;
++import java.util.Map;
++import java.util.Stack;
++import java.util.regex.Matcher;
++import java.util.regex.Pattern;
++
++public class Kata {
++
++	public static void main(String[] args) {
++//		System.out.println(expandedForm(70320));
++		
++//		System.out.println(josephusPermutation(Arrays.asList(new Object[]{1, 2, 3, 4, 5, 6, 7}), 3).toString());
++		
++//		testMe();
++		
++//		System.out.println(createPhoneNumber(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}));
++		
++//		System.out.println("evalutate :: " +evaluate("10000 123 +"));
++//		System.out.println("evalutate :: " +evaluate("5 1 2 + 4 * + 3 -"));
++//		System.out.println("evalutate :: " +evaluate2("5 1 2 + 4 * + 3 -"));
++		
++		String omg = ".";
++		System.out.println(omg == ".");
++	}
++	
++//	https://www.codewars.com/kata/5842df8ccbd22792a4000245/train/java
++//	https://www.codewars.com/kata/5842df8ccbd22792a4000245/solutions/java
++	public static String expandedForm(int num) {
++		// your code here
++		List<Object> arr = new ArrayList<Object>();
++		String returnStr = "";
++		
++		int num2 = num;
++		int num3 = 0;
++		int omg = 1;
++		
++		while(num2 > 0 ) {
++			num2 = num2 / 10;
++			num3 = num % (int) Math.pow(10, omg++);
++			if( num3 > 0 ) arr.add(num3);
++			num -= num3;
++		}
++		
++		for(int i = (arr.size() ) ; i > 0 ; i--) {
++			if(returnStr == "" ) returnStr += arr.get(i-1);
++			else returnStr += " + " + arr.get(i-1);
++		}
++		
++		return returnStr;
++    }
++
++//	https://www.codewars.com/kata/josephus-permutation/train/java
++//	https://www.codewars.com/kata/5550d638a99ddb113e0000a2/solutions/java
++	public static <T> List<T> josephusPermutation(final List<T> items, final int k) {
++		
++		List<T> items2 = new LinkedList<T>();
++		List<T> itemsNew = new LinkedList<T>(items);
++		
++		int idx = 0;
++		while(itemsNew.size() > 0 ){
++			
++			idx += k-1;
++			if(idx >= itemsNew.size()) {
++				idx = idx % itemsNew.size();
++			}
++			items2.add((T) itemsNew.remove(idx));
++		}
++		return items2;
++	}
++	
++	public static void testMe() {
++		List<Object> omg = new ArrayList<>();
++		Map<String, Object> omgMap = new HashMap<>();
++		omg.add(omgMap);
++		System.out.println(omg.size());
++		
++		for(Object haha : omg) {
++			Map<String, Object> omgMap1 = (Map<String, Object>) haha;
++			System.out.println("----111 "+omgMap1.get("map1"));
++		}
++		
++		omgMap.put("map1", 1);
++		System.out.println(omg.size());
++
++		for(Object haha : omg) {
++			Map<String, Object> omgMap1 = (Map<String, Object>) haha;
++			omgMap1.get("map1");
++			System.out.println("----2222 "+omgMap1.get("map1"));
++		}
++	}
++	
++//	https://www.codewars.com/kata/create-phone-number/train/java
++	public static String createPhoneNumber(int[] numbers) {
++	    // Your code here!
++		
++		List<Object> intList = new ArrayList<Object>();
++		for (int i = 0; i < numbers.length; i++) {
++		    intList.add(numbers[i]);
++		}
++		
++		int addIdx = 0;
++		intList.add(addIdx, "(");
++		addIdx += 3;
++		intList.add(addIdx, ") ");
++		
++		int idx = 0;
++		while(idx < intList.size() + 1) {
++			if(idx % 3 == 2) {
++				System.out.println(intList.get(idx));
++			}
++			idx++;
++		}
++		
++		return "";
++	}
++	
++//	https://www.codewars.com/kata/braking-well/train/java
++	
++	
++//	https://www.codewars.com/kata/magnet-particules-in-boxes/train/java
++
++	
++//	https://www.codewars.com/kata/52f78966747862fc9a0009ae/train/java
++//	https://www.codewars.com/kata/52f78966747862fc9a0009ae/solutions/java
++	public static double evaluate(String expr) {
++		// TODO: Your awesome code here
++		System.out.println("expr 11 start: "+expr);
++		
++		double resultNum = 0;
++		if(expr != null && expr != "") {
++			Pattern pattern = Pattern.compile("(\\w{1,9} \\w{1,9} [+|\\-|*|/])");
++			Matcher matcher = pattern.matcher(expr);
++			
++			if(matcher.find()) {
++				int resultNow = 0;
++				String nowMatcher = matcher.group();
++				String[] nowArr = nowMatcher.split(" ");
++				String operStr = nowArr[2];
++				int firstNumb = Integer.parseInt(nowArr[0]);
++				int secondNumb = Integer.parseInt(nowArr[1]);
++//				System.out.println(" nowMatcher : "+nowMatcher+", operStr : "+operStr+", firstNumb : "+firstNumb+", secondNumb : "+secondNumb);
++				if(operStr.equals("+")) {
++					resultNow = firstNumb + secondNumb;
++				} else if (operStr.equals("-")) {
++					resultNow = firstNumb - secondNumb;
++				} else if (operStr.equals("*")) {
++					resultNow = firstNumb * secondNumb;
++				} else if (operStr.equals("/")) {
++					resultNow = firstNumb / secondNumb;
++				}
++				
++				expr = expr.replace(nowMatcher, resultNow + "");
++				if(pattern.matcher(expr).find()) {
++					resultNum = evaluate(expr);
++				} else {
++					resultNum = new Double(expr);
++				}
++			} else {
++				if(expr.indexOf(" ") > 0 ) {
++					String[] last = expr.split(" ");
++					resultNum = new Double(last[last.length-1]);
++				} else {
++					System.out.println("22~");
++					resultNum = new Double(expr);
++				}
++			}
++		}
++		return resultNum;
++	}
++	
++	public static double evaluate2(String expr) {
++	    if (expr.equals("")) {
++	      return 0;
++	    }
++	  
++	    Stack<Double> stack = new Stack<Double>();
++	    String[] atoms = expr.split(" ");
++	    
++	    for (String atom: atoms) {
++	      Double a, b;
++	      System.out.println(atom);
++	      switch (atom) {
++	        case "+": stack.push(stack.pop() + stack.pop()); break;
++	        case "-": b = stack.pop(); a = stack.pop(); stack.push(a - b); break;
++	        case "*": stack.push(stack.pop() * stack.pop()); break;
++	        case "/": b = stack.pop(); a = stack.pop(); stack.push(a / b); break;
++	        default:
++	          stack.push(Double.parseDouble(atom));
++	      }
++	    }
++	    
++	    return stack.pop();
++	  }
++	
++	
++	
++//	https://www.codewars.com/kata/ranking-poker-hands/train/java
++	
++	
++//	https://www.codewars.com/kata/scramblies/train/java
++	public static boolean scramble(String str1, String str2) {
++        // your code
++		
++		
++		while(str2.length() >= 0) {
++			
++		}
++		
++		return true;
++    }
++	
++}
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(revision )
++++ .idea/modules.xml	(revision )
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/CodeWars.iml" filepath="$PROJECT_DIR$/CodeWars.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: src/codeWar6/KataDaySeven.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/codeWar6/KataDaySeven.java	(revision )
++++ src/codeWar6/KataDaySeven.java	(revision )
+@@ -0,0 +1,347 @@
++package codeWar6;
++
++import java.lang.reflect.Array;
++import java.util.ArrayList;
++import java.util.Arrays;
++import java.util.Collections;
++import java.util.Comparator;
++import java.util.List;
++import java.util.Stack;
++import java.util.regex.Matcher;
++import java.util.regex.Pattern;
++import java.util.stream.Collectors;
++
++public class KataDaySeven {
++
++	public static void main(String[] args) {
++//		System.out.println(nextSmaller(12345678));
++//		long[][] lst = new long[][] { {77, 130}, {84, 131}, {3, 4} }; //34060
++//		System.out.println(convertFrac(lst));
++		
++		
++//		generate_bc("mysite.com/pictures/holidays.html", " : ").equals( '<a href="/">HOME</a> : <a href="/pictures/">PICTURES</a> : <span class="active">HOLIDAYS</span>' );
++//		generate_bc("pippi.pi/from-a-and-for-biotechnology-uber-immunity/giacomo-sorbi.php?source=utm_pippi", " / ");
++//		generate_bc("www.codewars.com/users/GiacomoSorbi", " / ");
++//		generate_bc("mysite.com/very-long-url-to-make-a-silly-yet-meaningful-example/example.asp", " . ");
++//		generate_bc("www.microsoft.com/docs/index.htm", " * ");
++		
++//		pascal(5);
++		
++//		System.out.println(order("is2"));
++//		System.out.println(order("is2 Thi1s T4est 3a"));
++		
++//		System.out.println(longestConsec(new String[] {"itvayloxrp","wkppqsztdkmvcuwvereiupccauycnjutlv", "itvayloxrp", "vweqilsfytihvrzlaodfixoyxvyuyvgpck", "ingoqmwleojt", "wkppqsztdkmvcuwvereiupccauycnjutlv"}, 2));
++//		System.out.println(longestConsec(new String[] {"wlwsasphmxx", "owiaxujylentrklctozmymu", "wpgozvxxiu"}, 2));
++//		System.out.println(longestConsec(new String[] {"zone", "abigail", "theta", "form", "libe", "zas", "theta", "abigail"}, 2));
++//		System.out.println(longestConsec(new String[] {"itvayloxrp", "wkppqsztdkmvcuwvereiupccauycnjutlv", "vweqilsfytihvrzlaodfixoyxvyuyvgpck"}, 2));
++		System.out.println(longestConsec(new String[] {"fqqqxx"," mmmdddtqqqbb"," oooto"," vvggjllggyy"," ttsswwlllmm"," zzcmmwwdmmm"
++				," pppkkhppddvvrrruuue"," cckeeggd"," zbaammmx"," zzaaaffo"," syyccdddr"," oam"," vvvvvzyl"," ppmmhuyyjjb"," xxnoaa"," gggqjrreeeeezzzkk"
++				," hhwwrd"," mmooqqz"," jjhsswkkp"," dttllluu"," wnyydvv"," wfffvvimmm"," ttmmxxyynnuuu"," hhhhhqehhh"," rrsxx"," iiffaaeekzz"," mmmaryyy"," uupllln"
++				," oozzjjjuxccee"," bbnnbbbtttdhkk"," gnuuwwwaa"," kycccsssdddjj"," psssqqooottl"," sssrjjz"," ttggrbmmmuuuq"," hqqqyyyssggffsff"," uuxy"," eessnucncff"
++				," ssjyyvvv"," oovmmmvvk"," kkkbccah"," ccggkkkttrwvvaaax"," jjjiip"," wwvvvocqq"," lhhvvoos"," pyyerrwww"," cciiieekkymmii"," trriiiiipp"," uymllr"
++				," eejennwjjzzu"," jjjpppnnn"," rhhttt"," xmmrruungg"," aaahhhllnnu"," ccclliillddzz"," sssuvvvvvd"," hhhppfeehahhoof"," sshhheeeppf"," byyccft"," xxxvuuu"
++				," urrrnnhhhmm"," auukqq"," kkkllnnnpkk"," ttddmmxxzz"," tffffttuuuzzwee"," aaabd"," zzzhhozzccchhj"," pvvhhnqqqpx"," ooiiz"," ppuunttdvvv"," dddjjjuee"
++				," ssxxssvrvvf"," cxxxoorrasssooo"," qiillt"," uuttcccvvlxdd"," wwllg"," aarrgggff"," rrroorrhhhbbb"," kkjjxxxjwppp"," jjaghhhh"," ewwfkkrroollp"," ppuummmkk"
++				," bbbttttgaa"," mmhhhnnnrrnnka"," kkgggaggrrrkrrc"," beeeaann"," rrqqggqqwwoo"," lllmmssseejjhhunn"," aaaeeccp"," cccsgoo"," xxgmtoo"," yyaarrghhoool"
++				," vvuurrmmommm"," llkkrrud"," swwwmmssg"," yyvckk"," qwi"," aanggaqqqqm"," bbqqqhhrrkddd"," jxyyytty"," teggcffyy"," rruiiiiio"," aattteetnnddkkf"
++				," mmmgwwiyxx"," kvvaaq"," egupqqeeevv"," mmeeekqu"," ovvvuurr"," hvvxxqzzhhh"," zzfffqj"," ppqqqiinnnffftt"," qcvvnnnmmm"," piiddggsssg"," vwwwaaq"
++				," ccffooaa"," eekkkkkkm"," prwww"," pputtnnnb"," oozzkksxxpppkkkddq"," yyiwwsss"," zzcctaff"," zzzhhiifffw"," paappxxeehhzz"," lllcggof"," klkv"," tttuutxx"
++				," xxmmiiiwwiimmyyyhh"," yeeuuuhaa"," ppppppiirrryym"," kkwwwww"," aappsmmnn"," qqqwwwllhooo"," rrbss"," yyyeeellsssppaaa"}, 93));
++//		System.out.println(convertFloat(34.12f));
++		
++//		System.out.println("ixoyx3452zzzzzzzzzzzz".length());
++//		System.out.println("wkppvixoyxzzzzzzzzzzzz".length());
++	}
++
++	//https://www.codewars.com/kata/5659c6d896bc135c4c00021e/train/java
++	public static long nextSmaller(long n) {
++		
++		Stack stack = new Stack();
++		int digits = (int) Math.log10(n);
++		int compVal = (int) (n % digits);
++		System.out.println((int) Math.pow(10, digits));
++		for (int i = (int) Math.pow(10, digits); i > 0; i /= 10) {
++		    System.out.println(n / i);
++//		    stack.push(n%=i);
++		    n %= i;
++		    if(n > compVal) {
++		    	
++		    }
++		}
++		
++	    return n;
++	}
++	
++//	https://www.codewars.com/kata/54d7660d2daf68c619000d95/train/java
++//	https://www.codewars.com/kata/54d7660d2daf68c619000d95/solutions/java
++	public static String convertFrac(long[][] lst) {
++		long denominator = 0l;
++		String returnVal = "";
++		ArrayList<Long> tempDenom = new ArrayList<Long>();
++		if(lst.length == 0) return "";
++		for(int i = 0; i < lst.length ; i++) {
++			tempDenom.add(lst[i][1]);
++		}
++		denominator = getLCM(tempDenom);
++		
++		for(long[] omg : lst) {
++			returnVal += String.format("(%s,%s)", omg[0] * (denominator / omg[1]), denominator);
++		}
++		return returnVal;
++	}
++	
++    /**
++     * 1. ���� ū ���� ������� ���Ѵ� </br>
++     * 2. ���Ҷ����� �ٸ� ���ڵ�� ��.</br>
++     * 3. ���� ���ڸ� �ٸ� ���ڵ� ��η� ������ �������� �ּҰ�����̴�.
++     * @return �ּҰ���� ��ȯ
++     */
++	public static long getLCM(ArrayList<Long> arrList) {
++		long lcm = 0l;
++		long num = Collections.max(arrList); // ���� ū �� ��ȯ
++
++		for (int i = 1; i < Integer.MAX_VALUE; i++) {
++			boolean result = true; // ��� ������������ �Ǵ�
++			for (long j : arrList) {
++				if ((num * i) % j != 0) {
++					result = false; // �ϳ��� ����������� ������ false
++					break;
++				}
++			}
++			if (result) {
++				lcm = num * i;
++				break;
++			}
++		} // end for
++		return lcm;
++	}//end getLCM()
++	
++	// ��� ��ȯ �޼���
++    public static ArrayList getDivisor(long num) {
++//        System.out.println("�ִ��� : "+num);
++        ArrayList divisorList = new ArrayList<>();
++       
++        for(long i = num; i > 0; i--) {
++            if(num%i==0)   
++//                System.out.println("������ : "+ i);
++                divisorList.add(i);        //����������� ��� ���(�����������)
++        }
++        return divisorList;
++    }
++   
++    /**
++     * 1. ���� ���� ���� ����� ���Ѵ�.</br>
++     * 2. ���� ��� �� ū������ �ٸ� ���ڵ�� ������ ���������� ���Ѵ�.</br>
++     * 3. ��� ������ �������� �� ���� �ִ� ������̴�.
++     * @return �ִ����� ��ȯ
++     */
++	public static long getGCM(ArrayList<Long> arrList) {
++		long gcm = 0l; // �ִ�����
++		ArrayList<Long> divisorList = getDivisor(Collections.min(arrList)); // �����������Ǿ������Ʈ ��ȯ
++		
++		for (long i : divisorList) {
++			// System.out.println("��� : "+i);
++			boolean result = true; // ��� ������������ �Ǵ�
++			for (long j : arrList) {
++				// System.out.println("������ �� :"+j);
++				if (j % i != 0) {
++					result = false; // �ϳ��� ����������� ������ false
++					break;
++				}
++			}
++			if (result) {
++				gcm = i;
++				break;
++			}
++		} // end i
++		System.out.println("�ִ����� : " + gcm);
++
++		return gcm;
++	}//end getGCM()
++    
++	
++	public String floatToStr(float num) {
++		if(num == 0f) return "0";
++		Math.floor(2);
++		return "";
++	}
++	
++//	https://www.codewars.com/kata/breadcrumb-generator/train/java
++	public static String generate_bc(String url, String separator) {
++		if(url.length() == 0) return "";
++		String[] ignore = {"the","of","in","from","by","with","and", "or", "for", "to", "at", "a"};
++		String home = "<a href=\"/\">HOME</a>";
++		String[] urlArr = url.split("/");
++//		LinkedList<String> urlList = new LinkedList<String>(Arrays.asList(url.split("/")));
++		
++		System.out.println(Arrays.toString(ignore));
++		/*
++		for(Iterator<String> itr = urlList.iterator(); itr.hasNext(); ) {
++			String breadCrumb = itr.next().toString();
++			if(!"".equals(breadCrumb)) {
++				if(breadCrumb.contains(".")) breadCrumb = breadCrumb.substring(0, breadCrumb.indexOf("."));
++//				boolean spanActive = false;
++				if(!( breadCrumb.startsWith("http") || "index".equals(breadCrumb) ) ) {
++					if(breadCrumb.contains("-")) {
++						LinkedList<String> withDash = new LinkedList<String>(Arrays.asList(breadCrumb.split("-")));
++						char newChar = 0;
++						String newStr = "";
++						for(String ig : ignore ) {
++							breadCrumb.replace(ig, "");
++						}
++						newStr += newChar;
++						System.out.println(breadCrumb);
++						breadCrumb = newStr.toUpperCase();
++					}
++					if(itr.hasNext()) {
++						home += separator + "<a href=\"/"+breadCrumb+"/\">"+breadCrumb.toUpperCase()+"</a>";
++					} else {
++						//span active
++						home += separator + "<span class=\"active\">";
++						//do something
++						
++						home += "</span>";
++					}
++				}
++			}
++			//contain - and contain ignore 
++		}
++		*/
++		if(urlArr.length == 1) {
++			return home;
++		} else {
++			
++			int whileInt = 1;
++			List<String> urlList = Arrays.asList(urlArr);
++			while(whileInt <= urlArr.length - 1) {
++				String breadCrumb = urlArr[whileInt++];
++				
++				if(whileInt == urlArr.length) {
++					if(breadCrumb.contains(".")) breadCrumb = breadCrumb.substring(0, breadCrumb.indexOf("."));
++					
++					if(!breadCrumb.equals("index")) {
++						
++						for(String ig : ignore) {
++							List<String> strL =  urlList.stream().filter(e -> !e.equals(ig)).collect(Collectors.toList());
++//							System.out.println(Arrays.toString(strL));
++						}
++						
++						home += separator + "<span class=\"active\">";
++						for(int i = 0 ; i < breadCrumb.length() ; i++ ) {
++							Character now = breadCrumb.charAt(i);
++	//						System.out.println(now.toUpperCase(now));
++							if( i != 0 && Character.isUpperCase(now)) {
++								home += " ";
++							}
++							home += now.toUpperCase(now);
++						}
++						home += "</span>";
++					}
++				} else {
++					home += separator + "<a href=\"/"+breadCrumb+"/\">"+breadCrumb.toUpperCase()+"</a>";
++				}
++			}
++		}
++		System.out.println(home);
++		return home;
++	}
++	
++//	Expected : <a href="/">HOME</a> . <a href="/from-a-and-for-biotechnology-uber-immunity/">BUI</a> . <span class="active">GIACOMO SORBI</span>
++//	Actual :   <a href="/">HOME</a> . <a href="/from-a-and-for-biotechnology-uber-immunity/">FROM-A-AND-FOR-BIOTECHNOLOGY-UBER-IMMUNITY</a> . <span class="active">GIACOMO-SORBI</span>
++	/*
++	Test with : https://www.linkedin.com/in/giacomosorbi
++		 
++		The one used in the above test was my LinkedIn Profile; if you solved the kata this far and manage to get it, feel free to add me as a contact, message me about the language that you used and I will be glad to endorse you in that skill and possibly many others :)
++		 
++		https://www.linkedin.com/in/giacomosorbi
++		Expected : <a href="/">HOME</a> * <a href="/in/">IN</a> * <span class="active">GIACOMOSORBI</span>
++		Actual :   <a href="/">HOME</a> * <a href="//"></a> * <a href="/www.linkedin.com/">WWW.LINKEDIN.COM</a> * <a href="/in/">IN</a> * <span class="active">GIACOMOSORBI</span>
++		*/
++	
++	
++//	https://www.codewars.com/kata/52945ce49bb38560fe0001d9/train/java
++	public static int[][] pascal(int depth) {
++		// Your code here...
++		depth = 1;
++		int[][] result = new int[depth][];
++		int[] now = {1};
++		
++		if(depth >= 1) {
++			result[0] = now;
++			int cnt = 1;
++			while(cnt < depth) {
++				
++				now = new int[cnt+1];
++				now[0] = 1; now[cnt] = 1;
++				for(int i = 1 ; i < cnt ; i++ ) {
++					now[i] = result[cnt-1][i-1] + result[cnt-1][i];
++				}
++				result[cnt++] = now;
++			}
++		}
++		
++		for(int i = 0 ; i < result.length; i++) {
++			System.out.println(Arrays.toString(result[i]));
++		}
++		return result;
++	}
++	
++	public static String convertFloat(float num) {
++		String returnVal = Float.toString(num);
++		
++//		BigDecimal roundfinalPrice = new BigDecimal(num.floatValue()).setScale(2,BigDecimal.ROUND_HALF_UP);
++
++//        System.out.println("f1 --> "+num);
++//        String s1 = roundfinalPrice.toPlainString();
++//        System.out.println("s1 "+s1);
++		
++		return returnVal;
++	}
++	
++//	https://www.codewars.com/kata/your-order-please/train/java
++//	https://www.codewars.com/kata/55c45be3b2079eccff00010f/solutions/java
++	public static String order(String words) {
++		Pattern pattern = Pattern.compile("[0-9]");
++		if(words.length() > 0) {
++			String[] wordArr = words.split(" ");
++			String[] newArr = new String[wordArr.length];
++			for(String word : wordArr) {
++				Matcher matcher = pattern.matcher(word);
++				if(matcher.find()) {
++					if(wordArr.length > 1 ) newArr[Integer.parseInt(matcher.group()) - 1] = word;
++					else newArr[0] = word;
++				}
++			}
++			return String.join(" ", wordArr);
++		} else {
++			return words;
++		}
++	}
++	
++//	https://www.codewars.com/kata/consecutive-strings/train/java
++	public static String longestConsec(String[] strarr, int k) {
++        // your code
++		if(strarr.length > 0 && k > 0 && k <= strarr.length) {
++			Comparator<String> firstOne = (s1, s2) -> Integer.compare(s2.length(), s1.length());
++			List<String> strList = Arrays.asList(strarr).parallelStream().distinct().collect(Collectors.toList());
++			System.out.println(strList.toString());
++			
++//		List<String> strList2 = strList.stream().sorted(firstOne.thenComparing( (s1, s2) -> Integer.compare(strList.indexOf(s1), strList.indexOf(s2))   ))
++//			.filter(s1 -> strList.indexOf(s1) < k).collect(Collectors.toList());
++			
++			List<String> strList2 = strList.stream().sorted(firstOne)
++					.collect(Collectors.toList());
++			System.out.println(strList2.toString());
++			List<String> strList3 = strList2.subList(0, k).stream().sorted( (s1, s2) -> Integer.compare(strList.indexOf(s1), strList.indexOf(s2)) )
++						.collect(Collectors.toList());
++//			List<String> strList3 = strList.stream().sorted( (s1, s2) -> Integer.compare(strList.indexOf(s1), strList.indexOf(s2)) )
++//					.collect(Collectors.toList());
++			
++		System.out.println(strList3.toString());
++			return String.join("", strList3);
++		} else {
++			return "";
++		}
++    }
++	
++}
+Index: .idea/markdown-navigator/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/markdown-navigator/profiles_settings.xml	(revision )
++++ .idea/markdown-navigator/profiles_settings.xml	(revision )
+@@ -0,0 +1,3 @@
++<component name="MarkdownNavigator.ProfileManager">
++  <settings default="" pdf-export="" />
++</component>
+\ No newline at end of file
+Index: src/customAbstract/JavaParser.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/customAbstract/JavaParser.java	(revision )
++++ src/customAbstract/JavaParser.java	(revision )
+@@ -0,0 +1,90 @@
++package customAbstract;
++import java.io.BufferedReader;
++import java.io.File;
++import java.io.FileReader;
++import java.io.IOException;
++import java.util.HashSet;
++import java.util.Set;
++ 
++import org.eclipse.jdt.core.dom.AST;
++import org.eclipse.jdt.core.dom.ASTParser;
++import org.eclipse.jdt.core.dom.ASTVisitor;
++import org.eclipse.jdt.core.dom.CompilationUnit;
++import org.eclipse.jdt.core.dom.SimpleName;
++import org.eclipse.jdt.core.dom.VariableDeclarationFragment;
++ 
++public class JavaParser {
++ 
++	//use ASTParse to parse string
++	public static void parse(String str) {
++		ASTParser parser = ASTParser.newParser(AST.JLS3);
++		parser.setSource(str.toCharArray());
++		parser.setKind(ASTParser.K_COMPILATION_UNIT);
++ 
++		final CompilationUnit cu = (CompilationUnit) parser.createAST(null);
++ 
++		cu.accept(new ASTVisitor() {
++ 
++			Set names = new HashSet();
++ 
++			public boolean visit(VariableDeclarationFragment node) {
++				SimpleName name = node.getName();
++				this.names.add(name.getIdentifier());
++				System.out.println("Declaration of '" + name + "' at line"
++						+ cu.getLineNumber(name.getStartPosition()));
++				return false; // do not continue 
++			}
++ 
++			public boolean visit(SimpleName node) {
++				if (this.names.contains(node.getIdentifier())) {
++					System.out.println("Usage of '" + node + "' at line "
++							+ cu.getLineNumber(node.getStartPosition()));
++				}
++				return true;
++			}
++		});
++ 
++	}
++ 
++	//read file content into a string
++	public static String readFileToString(String filePath) throws IOException {
++		StringBuilder fileData = new StringBuilder(1000);
++		BufferedReader reader = new BufferedReader(new FileReader(filePath));
++ 
++		char[] buf = new char[10];
++		int numRead = 0;
++		while ((numRead = reader.read(buf)) != -1) {
++			System.out.println(numRead);
++			String readData = String.valueOf(buf, 0, numRead);
++			fileData.append(readData);
++			buf = new char[1024];
++		}
++ 
++		reader.close();
++ 
++		return  fileData.toString();	
++	}
++ 
++	//loop directory to get file list
++	public static void ParseFilesInDir() throws IOException{
++		File dirs = new File(".");
++		String dirPath = dirs.getCanonicalPath() + File.separator+"src"+File.separator;
++ 
++		File root = new File(dirPath);
++		//System.out.println(rootDir.listFiles());
++		File[] files = root.listFiles ( );
++		String filePath = null;
++ 
++		 for (File f : files ) {
++			 filePath = f.getAbsolutePath();
++			 if(f.isFile()){
++				 parse(readFileToString(filePath));
++			 }
++		 }
++	}
++ 
++	public static void main(String[] args) throws IOException {
++		ParseFilesInDir();
++	}
++
++}
+Index: src/customAbstract/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/customAbstract/.gitignore	(revision )
++++ src/customAbstract/.gitignore	(revision )
+@@ -0,0 +1,1 @@
++target/
+Index: src/customAbstract/YunaAnnotationProcessor.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/customAbstract/YunaAnnotationProcessor.java	(revision )
++++ src/customAbstract/YunaAnnotationProcessor.java	(revision )
+@@ -0,0 +1,18 @@
++package customAbstract;
++
++import java.util.Set;
++
++import javax.annotation.processing.AbstractProcessor;
++import javax.annotation.processing.RoundEnvironment;
++import javax.lang.model.element.TypeElement;
++
++public class YunaAnnotationProcessor extends AbstractProcessor {
++
++	@Override
++	public boolean process(Set<? extends TypeElement> arg0, RoundEnvironment arg1) {
++		// TODO Auto-generated method stub
++		
++		return false;
++	}
++
++}
+Index: .project
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .project	(revision )
++++ .project	(revision )
+@@ -0,0 +1,17 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<projectDescription>
++	<name>CodeWars</name>
++	<comment></comment>
++	<projects>
++	</projects>
++	<buildSpec>
++		<buildCommand>
++			<name>org.eclipse.jdt.core.javabuilder</name>
++			<arguments>
++			</arguments>
++		</buildCommand>
++	</buildSpec>
++	<natures>
++		<nature>org.eclipse.jdt.core.javanature</nature>
++	</natures>
++</projectDescription>
+Index: CodeWars.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- CodeWars.iml	(revision )
++++ CodeWars.iml	(revision )
+@@ -0,0 +1,159 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="EclipseModuleManager">
++    <libelement value="jar://$MODULE_DIR$/../lib/commons-collections-3.2.1.jar!/" />
++    <libelement value="jar://$MODULE_DIR$/../lib/commons-configuration-1.6.jar!/" />
++    <libelement value="jar://$MODULE_DIR$/../lib/commons-lang-2.5.jar!/" />
++    <libelement value="jar://$MODULE_DIR$/../lib/commons-logging-1.1.1.jar!/" />
++    <libelement value="jar://$MODULE_DIR$/../lib/org.eclipse.core.contenttype_3.4.1.R35x_v20090826-0451.jar!/" />
++    <libelement value="jar://$MODULE_DIR$/../lib/org.eclipse.core.jobs_3.4.100.v20090429-1800.jar!/" />
++    <libelement value="jar://$MODULE_DIR$/../lib/org.eclipse.core.resources_3.5.2.R35x_v20091203-1235.jar!/" />
++    <libelement value="jar://$MODULE_DIR$/../lib/org.eclipse.core.runtime_3.5.0.v20090525.jar!/" />
++    <libelement value="jar://$MODULE_DIR$/../lib/org.eclipse.equinox.common_3.5.1.R35x_v20090807-1100.jar!/" />
++    <libelement value="jar://$MODULE_DIR$/../lib/org.eclipse.equinox.preferences_3.2.301.R35x_v20091117.jar!/" />
++    <libelement value="jar://$MODULE_DIR$/../lib/org.eclipse.jdt.core_3.5.2.v_981_R35x.jar!/" />
++    <libelement value="jar://$MODULE_DIR$/../lib/org.eclipse.osgi_3.5.2.R35x_v20100126.jar!/" />
++    <libelement value="jar://$MODULE_DIR$/../lib/commons-codec-1.10.jar!/" />
++    <libelement value="jar://$MODULE_DIR$/libs/slf4j-api-1.7.6.jar!/" />
++    <src_description expected_position="0">
++      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
++      <src_folder value="file://$MODULE_DIR$/libs" expected_position="1" />
++    </src_description>
++  </component>
++  <component name="NewModuleRootManager" inherit-compiler-output="false">
++    <output url="file://$MODULE_DIR$/bin" />
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/libs" isTestSource="false" />
++    </content>
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="jdk" jdkName="JavaSE-1.8" jdkType="JavaSDK" />
++    <orderEntry type="module-library">
++      <library name="commons-collections-3.2.1.jar">
++        <CLASSES>
++          <root url="jar://$MODULE_DIR$/../lib/commons-collections-3.2.1.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library name="commons-configuration-1.6.jar">
++        <CLASSES>
++          <root url="jar://$MODULE_DIR$/../lib/commons-configuration-1.6.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library name="commons-lang-2.5.jar">
++        <CLASSES>
++          <root url="jar://$MODULE_DIR$/../lib/commons-lang-2.5.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library name="commons-logging-1.1.1.jar">
++        <CLASSES>
++          <root url="jar://$MODULE_DIR$/../lib/commons-logging-1.1.1.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library name="org.eclipse.core.contenttype_3.4.1.R35x_v20090826-0451.jar">
++        <CLASSES>
++          <root url="jar://$MODULE_DIR$/../lib/org.eclipse.core.contenttype_3.4.1.R35x_v20090826-0451.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library name="org.eclipse.core.jobs_3.4.100.v20090429-1800.jar">
++        <CLASSES>
++          <root url="jar://$MODULE_DIR$/../lib/org.eclipse.core.jobs_3.4.100.v20090429-1800.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library name="org.eclipse.core.resources_3.5.2.R35x_v20091203-1235.jar">
++        <CLASSES>
++          <root url="jar://$MODULE_DIR$/../lib/org.eclipse.core.resources_3.5.2.R35x_v20091203-1235.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library name="org.eclipse.core.runtime_3.5.0.v20090525.jar">
++        <CLASSES>
++          <root url="jar://$MODULE_DIR$/../lib/org.eclipse.core.runtime_3.5.0.v20090525.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library name="org.eclipse.equinox.common_3.5.1.R35x_v20090807-1100.jar">
++        <CLASSES>
++          <root url="jar://$MODULE_DIR$/../lib/org.eclipse.equinox.common_3.5.1.R35x_v20090807-1100.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library name="org.eclipse.equinox.preferences_3.2.301.R35x_v20091117.jar">
++        <CLASSES>
++          <root url="jar://$MODULE_DIR$/../lib/org.eclipse.equinox.preferences_3.2.301.R35x_v20091117.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library name="org.eclipse.jdt.core_3.5.2.v_981_R35x.jar">
++        <CLASSES>
++          <root url="jar://$MODULE_DIR$/../lib/org.eclipse.jdt.core_3.5.2.v_981_R35x.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library name="org.eclipse.osgi_3.5.2.R35x_v20100126.jar">
++        <CLASSES>
++          <root url="jar://$MODULE_DIR$/../lib/org.eclipse.osgi_3.5.2.R35x_v20100126.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library name="commons-codec-1.10.jar">
++        <CLASSES>
++          <root url="jar://$MODULE_DIR$/../lib/commons-codec-1.10.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library name="slf4j-api-1.7.6.jar">
++        <CLASSES>
++          <root url="jar://$MODULE_DIR$/libs/slf4j-api-1.7.6.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++  </component>
++</module>
+\ No newline at end of file
+Index: src/codeWar6/KataDaySix.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/codeWar6/KataDaySix.java	(revision )
++++ src/codeWar6/KataDaySix.java	(revision )
+@@ -0,0 +1,126 @@
++package codeWar6;
++
++import java.util.Stack;
++
++
++public class KataDaySix {
++
++	public static void main(String[] args) {
++		// TODO Auto-generated method stub
++//		code(""); 
++		
++//		System.out.println(dec2FactString(8150835199999999l));
++		System.out.println(factString2Dec("2DCAA5842344512200"));
++//		System.out.println(factString2Dec("A0000000000"));
++	}
++
++	
++	
++//	https://www.codewars.com/kata/56fcc393c5957c666900024d/train/java
++	public static String code(String s) {
++        // your code
++		
++		String omg = "What";
++		
++		String omg2 = "tahW";
++		
++		for(int i = 0 ; i < omg2.length() ; i++ ) {
++			Character c = (char)omg2.indexOf(i);
++			System.out.println("c :: "+(char)omg2.indexOf(i));
++		}
++		
++		return "";
++    }
++    public static String decode(String s) {
++        // your code
++    	
++    	
++    	return "";
++    }
++    
++//    https://www.codewars.com/kata/54e320dcebe1e583250008fd/train/java
++//    https://www.codewars.com/kata/decimal-to-factorial-and-back/solutions/java
++	public static String dec2FactString(long nb) {
++		int divideNum = 1;
++		long rest = 0;
++		Stack<String> returnStr = new Stack<String>();
++		String returnMsg = "";
++		while (nb > 0) {
++			rest = (long) (nb / divideNum);
++			int pushNum = (int) (nb % (divideNum++));
++			String pushVal = String.valueOf(pushNum);
++			if(pushNum > 9) {
++				Object omg = (char)((pushNum - 9) + 64);
++				pushVal = omg.toString();
++			}
++			returnStr.push(pushVal);
++			if(rest >= 0) nb = rest;
++		}
++		
++		while(!returnStr.empty()) {
++			returnMsg += returnStr.pop();
++		}
++	    return returnMsg;
++	}
++
++//	341010
++	public static long factString2Dec(String str) {
++		int placeVal = str.length() - 1;
++		long now = 0;
++		if(Character.isAlphabetic(str.charAt(0))) {
++			now = Integer.parseInt(String.valueOf(Character.toLowerCase(str.charAt(0)) - 'a' + 1)) + 9;
++		} else {
++			now = Integer.parseInt(String.valueOf(str.charAt(0)));
++		}
++		int next = 0;
++		for(int i = 1 ; i < str.length() ; i++ ) {
++			System.out.println(String.valueOf(str.charAt(i)));
++			if( i + 1 < str.length() ) {
++				if(Character.isAlphabetic(str.charAt(i))) {
++					next = Integer.parseInt(String.valueOf(Character.toLowerCase(str.charAt(i)) - 'a' + 1)) + 9;
++				} else {
++					next = Integer.parseInt(String.valueOf(str.charAt(i)));
++				}
++				System.out.println("next :: "+next+", now : "+now);
++				now = (now * placeVal) + next;
++			}
++			placeVal--;
++		}
++		return (long) now;
++	}
++    /*
++    private static String digt="0123456789ABCDEFGHIZKLMNOPQRSTUVWXYZ";
++    
++    public static String dec2FactString(long nb) {
++      System.out.println("d2s:" + nb);
++      long v = nb;
++      int i=1;
++      StringBuffer s = new StringBuffer();
++      while ( v != 0 ){
++        s.append( (String.valueOf(digt.charAt((int)(v%i%37)))));
++        v =  v / i++;
++      }
++       return s.reverse().toString();
++    }
++    public static long factString2Dec(String str) {
++     System.out.println("f2d:"+str);
++     //((((3��5 + 4)��4 + 1)��3 + 0)��2 + 1)��1 + 0
++     //(n x i + n-1) x i +n
++     int fv = str.length()-1;
++     int i=0;
++     long rv = digt.indexOf(str.charAt(0)); 
++     //System.out.println(str);
++     while ( fv > 0 ){
++       int nv = digt.indexOf(str.charAt(i+1));
++       System.out.println("nv : "+nv);
++      rv = (rv * fv + nv);
++      //System.out.println(rv +"="+rv + "*" + fv + "+"+ nv);
++      fv--; i++;
++     }
++     rv += digt.indexOf(str.charAt(str.length()-1));
++     return rv;
++    }
++    */
++//	https://www.codewars.com/kata/product-of-consecutive-fib-numbers/train/java
++    
++}
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision )
++++ .idea/misc.xml	(revision )
+@@ -0,0 +1,176 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="MarkdownProjectSettings">
++    <PreviewSettings splitEditorLayout="SPLIT" splitEditorPreview="PREVIEW" useGrayscaleRendering="false" zoomFactor="1.0" maxImageWidth="0" showGitHubPageIfSynced="false" allowBrowsingInPreview="false" synchronizePreviewPosition="true" highlightPreviewType="NONE" highlightFadeOut="5" highlightOnTyping="true" synchronizeSourcePosition="true" verticallyAlignSourceAndPreviewSyncPosition="true" showSearchHighlightsInPreview="false" showSelectionInPreview="true">
++      <PanelProvider>
++        <provider providerId="com.vladsch.idea.multimarkdown.editor.swing.html.panel" providerName="Default - Swing" />
++      </PanelProvider>
++    </PreviewSettings>
++    <ParserSettings gitHubSyntaxChange="false">
++      <PegdownExtensions>
++        <option name="ABBREVIATIONS" value="false" />
++        <option name="ANCHORLINKS" value="true" />
++        <option name="ASIDE" value="false" />
++        <option name="ATXHEADERSPACE" value="true" />
++        <option name="AUTOLINKS" value="true" />
++        <option name="DEFINITIONS" value="false" />
++        <option name="DEFINITION_BREAK_DOUBLE_BLANK_LINE" value="false" />
++        <option name="FENCED_CODE_BLOCKS" value="true" />
++        <option name="FOOTNOTES" value="false" />
++        <option name="HARDWRAPS" value="false" />
++        <option name="HTML_DEEP_PARSER" value="false" />
++        <option name="INSERTED" value="false" />
++        <option name="QUOTES" value="false" />
++        <option name="RELAXEDHRULES" value="true" />
++        <option name="SMARTS" value="false" />
++        <option name="STRIKETHROUGH" value="true" />
++        <option name="SUBSCRIPT" value="false" />
++        <option name="SUPERSCRIPT" value="false" />
++        <option name="SUPPRESS_HTML_BLOCKS" value="false" />
++        <option name="SUPPRESS_INLINE_HTML" value="false" />
++        <option name="TABLES" value="true" />
++        <option name="TASKLISTITEMS" value="true" />
++        <option name="TOC" value="false" />
++        <option name="WIKILINKS" value="true" />
++      </PegdownExtensions>
++      <ParserOptions>
++        <option name="COMMONMARK_LISTS" value="true" />
++        <option name="DUMMY" value="false" />
++        <option name="EMOJI_SHORTCUTS" value="true" />
++        <option name="FLEXMARK_FRONT_MATTER" value="false" />
++        <option name="GFM_LOOSE_BLANK_LINE_AFTER_ITEM_PARA" value="false" />
++        <option name="GFM_TABLE_RENDERING" value="true" />
++        <option name="GITBOOK_URL_ENCODING" value="false" />
++        <option name="GITHUB_EMOJI_URL" value="false" />
++        <option name="GITHUB_LISTS" value="false" />
++        <option name="GITHUB_WIKI_LINKS" value="true" />
++        <option name="JEKYLL_FRONT_MATTER" value="false" />
++        <option name="SIM_TOC_BLANK_LINE_SPACER" value="true" />
++      </ParserOptions>
++    </ParserSettings>
++    <HtmlSettings headerTopEnabled="false" headerBottomEnabled="false" bodyTopEnabled="false" bodyBottomEnabled="false" embedUrlContent="false" addPageHeader="true">
++      <GeneratorProvider>
++        <provider providerId="com.vladsch.idea.multimarkdown.editor.swing.html.generator" providerName="Default Swing HTML Generator" />
++      </GeneratorProvider>
++      <headerTop />
++      <headerBottom />
++      <bodyTop />
++      <bodyBottom />
++    </HtmlSettings>
++    <CssSettings previewScheme="UI_SCHEME" cssUri="" isCssUriEnabled="false" isCssTextEnabled="false" isDynamicPageWidth="true">
++      <StylesheetProvider>
++        <provider providerId="com.vladsch.idea.multimarkdown.editor.swing.html.css" providerName="Default Swing Stylesheet" />
++      </StylesheetProvider>
++      <ScriptProviders />
++      <cssText />
++    </CssSettings>
++    <HtmlExportSettings updateOnSave="false" parentDir="$ProjectFileDir$" targetDir="$ProjectFileDir$" cssDir="" scriptDir="" plainHtml="false" imageDir="" copyLinkedImages="false" imageUniquifyType="0" targetExt="" useTargetExt="false" noCssNoScripts="false" linkToExportedHtml="true" exportOnSettingsChange="true" regenerateOnProjectOpen="false" />
++    <LinkMapSettings>
++      <textMaps />
++    </LinkMapSettings>
++  </component>
++  <component name="MavenImportPreferences">
++    <option name="generalSettings">
++      <MavenGeneralSettings>
++        <option name="mavenHome" value="Bundled (Maven 3)" />
++      </MavenGeneralSettings>
++    </option>
++  </component>
++  <component name="ProjectInspectionProfilesVisibleTreeState">
++    <entry key="Project Default">
++      <profile-state>
++        <expanded-state>
++          <State>
++            <id />
++          </State>
++          <State>
++            <id>Android &gt; Lint &gt; Correctness</id>
++          </State>
++          <State>
++            <id>Application Server Specific Inspections</id>
++          </State>
++          <State>
++            <id>CDI(Contexts and Dependency Injection) issues</id>
++          </State>
++          <State>
++            <id>Faces Model</id>
++          </State>
++          <State>
++            <id>JSP Inspections</id>
++          </State>
++          <State>
++            <id>Java</id>
++          </State>
++          <State>
++            <id>Java EE issues</id>
++          </State>
++          <State>
++            <id>Performance issuesJava</id>
++          </State>
++          <State>
++            <id>Portability issuesJava</id>
++          </State>
++          <State>
++            <id>Resource management issuesJava</id>
++          </State>
++          <State>
++            <id>SQL</id>
++          </State>
++          <State>
++            <id>WebSocket issues</id>
++          </State>
++        </expanded-state>
++        <selected-state>
++          <State>
++            <id>Android</id>
++          </State>
++        </selected-state>
++      </profile-state>
++    </entry>
++  </component>
++  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
++    <OptionsSetting value="true" id="Add" />
++    <OptionsSetting value="true" id="Remove" />
++    <OptionsSetting value="true" id="Checkout" />
++    <OptionsSetting value="true" id="Update" />
++    <OptionsSetting value="true" id="Status" />
++    <OptionsSetting value="true" id="Edit" />
++    <ConfirmationsSetting value="0" id="Add" />
++    <ConfirmationsSetting value="0" id="Remove" />
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++  <component name="SvnConfiguration">
++    <configuration>C:\Users\최지혜\AppData\Roaming\Subversion</configuration>
++    <option name="sshConnectionType" value="PASSWORD" />
++    <option name="sshUserName" value="ChoiJihye" />
++  </component>
++  <component name="masterDetails">
++    <states>
++      <state key="ProjectJDKs.UI">
++        <settings>
++          <last-edited>1.8</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.1988555" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="ScopeChooserConfigurable.UI">
++        <settings>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.39425287" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++    </states>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/compiler.xml	(revision )
++++ .idea/compiler.xml	(revision )
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <resourceExtensions />
++    <wildcardResourcePatterns>
++      <entry name="!?*.java" />
++      <entry name="!?*.form" />
++      <entry name="!?*.class" />
++      <entry name="!?*.groovy" />
++      <entry name="!?*.scala" />
++      <entry name="!?*.flex" />
++      <entry name="!?*.kt" />
++      <entry name="!?*.clj" />
++      <entry name="!?*.aj" />
++    </wildcardResourcePatterns>
++    <annotationProcessing>
++      <profile default="true" name="Default" enabled="false">
++        <processorPath useClasspath="true" />
++      </profile>
++    </annotationProcessing>
++  </component>
++</project>
+\ No newline at end of file
+Index: src/codeWar6/KataDayEight.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/codeWar6/KataDayEight.java	(revision )
++++ src/codeWar6/KataDayEight.java	(revision )
+@@ -0,0 +1,316 @@
++package codeWar6;
++
++import java.io.UnsupportedEncodingException;
++import java.math.BigInteger;
++import java.net.URLEncoder;
++import java.util.ArrayList;
++import java.util.Arrays;
++import java.util.Collections;
++import java.util.HashMap;
++import java.util.HashSet;
++import java.util.LinkedHashSet;
++import java.util.List;
++import java.util.Map;
++import java.util.Set;
++import java.util.function.Function;
++import java.util.logging.Logger;
++import java.util.stream.Collectors;
++import java.util.stream.Stream;
++
++import org.apache.commons.codec.binary.Base64;
++import org.apache.commons.lang.StringUtils;
++
++public class KataDayEight {
++	
++	private static final Logger logger = Logger.getLogger(KataDayEight.class.getName());
++	
++	public static void main(String[] args) throws UnsupportedEncodingException {
++//		System.out.println(listSquared(1, 250));
++//		System.out.println(solEquaStr2(90005));
++//		System.out.println(toCamelCase("the_stealth_warrior"));
++//		System.out.println(toCamelCase("The_Stealth_Warrior"));
++		
++//		listPosition("QUESTIONQ");
++		
++//		groupCheck("[[][({})]{}]");
++//		base64Test();
++//		base64New();
++//		streamTest();
++		
++		List<String> omg = new ArrayList<>();
++		omg.add("Hello I am a boy");
++		omg.add("Hello I am a girl");
++		omg.add("what the hell");
++		countWord(omg);
++		
++	}
++	
++//	https://www.codewars.com/kata/55aa075506463dac6600010d/train/java
++//	https://www.codewars.com/kata/55aa075506463dac6600010d/solutions/java
++	public static String listSquared(long m, long n) {
++		// your code
++		long i = m;
++		ArrayList<String> result = new ArrayList<String>();
++		do {
++			String addVal = getDivisorSqrt(i++, n);
++			if(!"".equals(addVal)) result.add(addVal);
++		} while(i <= n);
++		return "[" + String.join(", ", result) + "]";
++	}
++	
++	private static String getDivisorSqrt(long m, long n) {
++		int tempSum = 0;
++		String returnVal = "";
++		for(int i = 1 ; i <= (int)m ; i++ ) {
++			if(m % i == 0) {
++				tempSum += Math.pow(i, 2);
++			}
++		}
++		if(tempSum >= 1) {
++			if((Math.sqrt(tempSum) * 10) % 10 == 0 && m <= n) {
++				returnVal = "["+m+", "+tempSum+"]";
++			}
++		}
++//		System.out.println(returnVal);
++		return returnVal;
++	}
++	
++//	sol_equa(90005) -->  [[45003, 22501], [9003, 4499], [981, 467], [309, 37]]
++//	https://www.codewars.com/kata/diophantine-equation/train/java
++	public static String solEquaStr(long n) {
++		// your code
++		n = 900000;
++		int x = 0, y = 0;
++		long temp = 0;
++		ArrayList<String> resultList = new ArrayList<String>();
++		while( (x*x) <= temp) {
++			temp = (int) ((4 * (y * y)) + n);
++			if( (Math.sqrt(temp) * 10 ) % 10 == 0.0 ) {
++				x = (int) Math.sqrt(temp);
++				resultList.add("["+x+", "+y+"]");
++			}
++			y++;
++		}
++		
++		if(resultList.size() > 0) Collections.reverse(resultList);
++//		map.entrySet().stream().sorted(Map.Entry.<Integer, Integer>comparingByKey().reversed());
++//		Map<Integer, Integer> resultMap = map.entrySet().stream().sorted(Map.Entry.<Integer, Integer>comparingByKey().reversed()).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
++		
++		return "["+String.join(", ", resultList)+"]";
++	}
++	
++	public static String solEquaStr2(long n) {
++		// your code
++		n = 900000012;
++		
++		System.out.println("n : "+n);
++		long x = 0, y = 0;
++		long temp = 0;
++		ArrayList<String> resultList = new ArrayList<String>();
++		while( (x*x) <= temp && y <= n && x <= n) {
++			temp = (4 * (y * y)) + n;
++			if( (Math.sqrt(temp) * 10 ) % 10 == 0.0 ) {
++				x = (long) Math.sqrt(temp);
++				resultList.add("["+x+", "+y+"]");
++			}
++			y++;
++		}
++		
++		if(resultList.size() > 0) Collections.reverse(resultList);
++		
++		return "["+String.join(", ", resultList)+"]";
++	}
++
++//	https://www.codewars.com/kata/517abf86da9663f1d2000003/train/java
++//	https://www.codewars.com/kata/517abf86da9663f1d2000003/solutions/java
++	public static String toCamelCase(String s) {
++		if(s.length() == 0) return "";
++		s = s.replace("_", "-");
++		String[] omg = s.split("-");
++		String result = omg[0];
++		for(int i = 1 ; i < omg.length; i++ ) {
++			result += Character.toUpperCase(omg[i].charAt(0)) + omg[i].substring(1, omg[i].length());
++		}
++//		haha.stream().collect(Collectors.toMap(haha::indexOf, a->a)).forEach((i, o) -> {
++//			System.out.println(i +","+ o);
++//		});
++		
++//		IntStream.range(1, omg.length).forEach(idx -> {
++//			Character.toUpperCase(haha.get(idx).charAt(0));
++//			System.out.println(haha.get(idx));
++//		});
++		
++		return result;
++	}
++	
++//	https://www.codewars.com/kata/esolang-interpreters-number-2-custom-smallfuck-interpreter/train/java
++	
++//	https://www.codewars.com/kata/53e57dada0cb0400ba000688/train/java
++	public static BigInteger listPosition(String word) {
++		BigInteger position = BigInteger.ZERO;
++		
++		ArrayList<Character> chars = new ArrayList<>(word.chars().mapToObj(e -> (char) e).collect(Collectors.toList()));
++		ArrayList<Character> charSorted = (ArrayList<Character>) chars.clone();
++		Collections.sort(charSorted);
++		
++		Set<Character> cSet = new LinkedHashSet<>();
++		ArrayList<Character> uniqueChars = sortedUniqueChar(charSorted, cSet);
++		int i = 0;
++		int j = 0;
++		
++		while(i < chars.size() || j < uniqueChars.size()) {
++			if(chars.get(i) == uniqueChars.get(j++)) {
++				System.out.println(chars.get(i));
++				charSorted.remove(chars.get(i));
++				uniqueChars = sortedUniqueChar(charSorted, cSet);
++				
++//				System.out.println("=== > uniqueChars == >"+uniqueChars.toString());
++				
++				i++;
++				j = 0;
++			} else {
++				ArrayList<Character> charSorted2 = (ArrayList<Character>) charSorted.clone();
++				charSorted2.remove(  chars.get(i) < uniqueChars.get(j-1) ? chars.get(i) : uniqueChars.get(j-1) );
++//				System.out.println("--- charSorted2 ==> "+charSorted2.toString());
++			}
++		}
++		
++		return BigInteger.ZERO;
++	}
++	
++	private static ArrayList<Character> sortedUniqueChar(ArrayList<Character> sortedChars, Set<Character> cSet) {
++		cSet.clear();
++		for(char c : sortedChars) {
++			cSet.add(c);
++		}
++		return Collections.list(Collections.enumeration(cSet));
++	}
++
++	private static long factorial(int n) {
++		return n == 0 ? 1 : factorial(n - 1) * n;
++	}
++	
++	private static BigInteger countAnagrams(ArrayList<Character> c) {
++		long numericCnt = factorial(c.size());
++		int groupCnt = sortedUniqueChar(c, new HashSet<>()).size();
++		
++		return null;
++	}
++	
++//	https://www.codewars.com/kata/checking-groups/train/java
++	public static boolean groupCheck(String s) {
++		boolean returnVal = false;
++		char[] charArr = s.toCharArray();
++		
++		ArrayList cList = new ArrayList<>();
++		
++		System.out.println(cList.toString());
++		
++		if(new HashSet<>(Arrays.asList(charArr)).size() % 2 == 0) {
++			
++			
++			for(char c : charArr) {
++				
++			}
++			
++			
++			
++		} else {
++			returnVal = false;
++		}
++		
++//		Set<Character> cSet = new LinkedHashSet<>(s.toCharArray());
++		
++		
++		return true;
++	}
++	
++	public static void base64Test() throws UnsupportedEncodingException {
++		sun.misc.BASE64Encoder encoder = new sun.misc.BASE64Encoder();
++		
++        String strMemNm = "������";
++        byte[] b1 = strMemNm.getBytes("UTF-8");
++        strMemNm = encoder.encode(b1);
++        System.out.println(strMemNm);
++        strMemNm = URLEncoder.encode(strMemNm, "utf-8");
++        System.out.println(strMemNm);
++        
++//		userInfo.setMemNmCookie(strMemNm);
++	}
++	
++	public static void base64New() throws UnsupportedEncodingException {
++		String strMemNm = "������";
++		
++//		Base64 decoder = new Base64();
++//		byte[] b1 = decoder.decode(strMemNm);
++//		Base64 encoder = new Base64();
++//		encoder.encodeToString(strMemNm);
++		
++		byte[] encoded = Base64.encodeBase64(strMemNm.getBytes("UTF-8"));
++		System.out.println(new String(encoded, "UTF-8"));
++		byte[] result = Base64.decodeBase64(encoded);
++		System.out.println(new String(result, "UTF-8"));
++		
++	}
++	
++	public static void streamTest() {
++		List<String> list = new ArrayList<String>();
++		
++		list.add("java");
++		list.add("php");
++		list.add("python");
++		list.add("perl");
++		list.add("c");
++		list.add("ohmygod");
++		
++		Stream<String> wordStream = list.stream();
++		Stream<Integer> lengthStream = wordStream.map(s->s.length());
++//		Iterator<Integer> itr = lengthStream.iterator();
++//		while(itr.hasNext()) {
++//			System.out.println(itr.next());
++//		}
++		
++		int s = list.stream().map(s1->s1.length())
++					.mapToInt(Integer::new)
++					.sum();
++		
++		System.out.println(" s : "+s);
++		/*
++		for(Iterator<Integer> itr = lengthStream.iterator(); itr.hasNext(); ) {
++			System.out.println(itr.next());
++		}
++		*/
++		
++//		Optional<Integer> sum = lengthStream.reduce(Integer::sum);
++//		Optional<Integer> sum = lengthStream.reduce((x, y) -> x+y);
++//		sum.ifPresent(System.out::println);
++//		int sum = lengthStream.reduce(0, (x, y) -> x+y);
++//		System.out.println(sum);
++		
++		int s2 = list.stream().reduce(0, (x, y) -> x + y.length(), (x, y) -> x+y);
++		System.out.println(s2);
++		
++		//�Ʒ��� stream()�� �ߺ��� �ִ°�� exception�� �߻���Ų��. Function.identify()�� �ߺ� ���Ÿ� �ϴ°� �ƴѵ�
++		Map<String, Integer> map = list.stream().collect(Collectors.toMap(Function.identity(), s3->s3.length()));
++		System.out.println(map);
++		
++	}
++	
++	public static void countWord(List<String> sentences) {
++		
++		Map<String, Integer> mapCnt = new HashMap<>();
++		for(String sentence : sentences) {
++			String[] wordArr = sentence.split(" ");
++			for(String word : wordArr) {
++				if( mapCnt.get(word) != null ) {
++					mapCnt.put(word, mapCnt.get(word) + 1);
++				} else {
++					mapCnt.put(word, 1);
++				}
++			}
++		}
++		
++		System.out.println(mapCnt.toString());
++	}
++	
++}
+Index: src/sort/Sort.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/sort/Sort.java	(revision )
++++ src/sort/Sort.java	(revision )
+@@ -0,0 +1,75 @@
++package sort;
++
++import java.util.Arrays;
++
++public class Sort {
++	
++	public static void main(String[] args) {
++		int[] x = { 9, 2, 4, 7, 3, 7, 10 };
++		System.out.println(Arrays.toString(x));
++ 
++		int low = 0;
++		int high = x.length - 1;
++//		quickSort(x, low, high);
++//		System.out.println(Arrays.toString(x));
++		
++		int input = 5;
++		for(int i = 0; i <= input ; i++ ) {
++			System.out.println(fibonacci(i));
++		}
++	}
++ 
++	public static void quickSort(int[] arr, int low, int high) {
++		if (arr == null || arr.length == 0)
++			return;
++		
++		if (low >= high)
++			return;
++ 
++		// pick the pivot
++		int middle = low + (high - low) / 2;
++		int pivot = arr[middle];
++ 
++		// make left < pivot and right > pivot
++		int i = low, j = high;
++		System.out.println("=== 1   [ i :"+i+" ], [ j : "+j+" ] ==");
++		while (i <= j) {
++			while (arr[i] < pivot) {
++				i++;
++			}
++ 
++			while (arr[j] > pivot) {
++				j--;
++			}
++ 
++			if (i <= j) {
++				int temp = arr[i];
++				arr[i] = arr[j];
++				arr[j] = temp;
++				i++;
++				j--;
++			}
++			System.out.println("=== 2   [ i :"+i+" ], [ j : "+j+" ] ==");
++		}
++ 
++		// recursively sort two sub parts
++		if (low < j) {
++			quickSort(arr, low, j);
++			System.out.println("=== quick sort   [ low :"+low+" ], [ j : "+j+" ] ==");
++		}
++			
++		if (high > i) {
++			quickSort(arr, i, high);
++			System.out.println("=== quick sort   [ i :"+i+" ], [ high : "+high+" ] ==");
++		}
++	}
++	
++	public static long fibonacci(int n) {
++//		long omg = fibonacci(n-1) + fibonacci(n-2);
++//		System.out.println("=== omg ::"+omg);
++		System.out.println("--- n : "+n);
++        if (n <= 1) return n;
++        else return fibonacci(n-1) + fibonacci(n-2);
++    }
++	
++}
+Index: src/codeWar6/CodeWar6.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/codeWar6/CodeWar6.java	(revision )
++++ src/codeWar6/CodeWar6.java	(revision )
+@@ -0,0 +1,44 @@
++package codeWar6;
++
++import java.util.HashMap;
++import java.util.Map;
++import java.util.logging.Logger;
++
++//http://www.codewars.com/kata/decode-the-morse-code-advanced
++
++//Decode the Morse code
++//https://www.codewars.com/kata/54b724efac3d5402db00065e/train/java
++public class CodeWar6 {
++	
++	final static Logger logger = Logger.getLogger(CodeWar6.class.getName());
++	
++	final static String[] alpha = {"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","0","1","2","3","4","5","6","7","8","9",".",",","?", " "};
++	final static String[] morse = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-"
++			,"..-","...-",".--","-..-","-.--","--..","-----",".----","..---","...--","....-",".....","-....","--...","---..","----.",".-.-.-","--..--","..--..", "|" };
++	
++	public static void main(String[] args) {
++		
++		String result = CodeWar6.decode(".... . -.--   .--- ..- -.. .");
++		System.out.println(result);
++	}
++	
++	public static String decode(String morseCode) {
++        // your brilliant code here, remember that you can access the preloaded Morse code table through MorseCode.get(code)
++		Map<String, String> morseMap = new HashMap<String, String>();
++		for(int i = 0 ; i < alpha.length ; i++ ) {
++			morseMap.put(morse[i], alpha[i]);
++		}
++		String letter = "";
++		String space = "";
++		for(String nowWord : morseCode.split("  ")) {
++//			System.out.println("nowWord :: "+nowWord);
++			if(morseMap.get(nowWord) != null) letter += morseMap.get(nowWord);
++		}
++		
++		
++		return letter;
++    }
++	
++	
++
++}
+Index: src/sort/BinaryTree.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/sort/BinaryTree.java	(revision )
++++ src/sort/BinaryTree.java	(revision )
+@@ -0,0 +1,175 @@
++package sort;
++
++public class BinaryTree {
++
++	public static void main(String[] args) {
++		// TODO Auto-generated method stub
++	}
++
++	class Node {
++		private int data;
++		private Node left;
++		private Node right;
++
++		public Node(int data) {
++			this.setData(data);
++			setLeft(null);
++			setRight(null);
++		}
++
++		public int getData() {
++			return data;
++		}
++
++		public void setData(int data) {
++			this.data = data;
++		}
++
++		public Node getLeft() {
++			return left;
++		}
++
++		public void setLeft(Node left) {
++			this.left = left;
++		}
++
++		public Node getRight() {
++			return right;
++		}
++
++		public void setRight(Node right) {
++			this.right = right;
++		}
++
++	}
++
++	public class BinarySearchTree {
++		public Node root;
++		public BinarySearchTree() {
++			this.root = null;
++		}
++
++		// Ž�� ����
++		public boolean find(int id) {
++			Node current = root;
++			while (current != null) {
++				// ���� ���� ã�� ���� ������
++				if (current.getData() == id) {
++					return true;
++					// ã�� ���� ���� ��庸�� ������
++				} else if (current.getData() > id) {
++					current = current.getLeft();
++					// ã�� ���� ���� ��庸�� ũ��
++				} else {
++					current = current.getRight();
++				}
++			}
++			return false;
++		}
++
++		public void insert(int id) {
++			Node newNode = new Node(id);
++			if (root == null) {
++				root = newNode;
++				return;
++			}
++			Node current = root;
++			Node parent = null;
++			while (true) {
++				parent = current;
++				if (id < current.getData()) {
++					current = current.getLeft();
++					if (current == null) {
++						parent.setLeft(newNode);
++						return;
++					}
++				} else {
++					current = current.getRight();
++					if (current == null) {
++						parent.setRight(newNode);
++						return;
++					}
++				}
++			}
++		}
++
++		// ���� ����
++		public boolean delete(int id) {
++			Node parent = root;
++			Node current = root;
++			boolean isLeftChild = false;
++			while (current.getData() != id) {
++				parent = current;
++				if (current.getData() > id) {
++					isLeftChild = true;
++					current = current.getLeft();
++				} else {
++					isLeftChild = false;
++					current = current.getRight();
++				}
++				if (current == null) {
++					return false;
++				}
++			}
++			// Case 1: �ڽĳ�尡 ���� ���
++			if (current.getLeft() == null && current.getRight() == null) {
++				if (current == root) {
++					root = null;
++				}
++				if (isLeftChild == true) {
++					parent.setLeft(null);
++				} else {
++					parent.setRight(null);
++				}
++			}
++			// Case 2 : �ϳ��� �ڽ��� ���� ���
++			else if (current.getRight() == null) {
++				if (current == root) {
++					root = current.getLeft();
++				} else if (isLeftChild) {
++					parent.setLeft(current.getLeft());
++				} else {
++					parent.setRight(current.getLeft());
++				}
++			} else if (current.getLeft() == null) {
++				if (current == root) {
++					root = current.getRight();
++				} else if (isLeftChild) {
++					parent.setLeft(current.getRight());
++				} else {
++					parent.setRight(current.getRight());
++				}
++			} // Case 3 : �ΰ��� �ڽ��� ���� ���
++			else if (current.getLeft() != null && current.getRight() != null) {
++				// ������ ����Ʈ���� �ּҰ��� ã��
++				Node successor = getSuccessor(current);
++				if (current == root) {
++					root = successor;
++				} else if (isLeftChild) {
++					parent.setLeft(successor);
++				} else {
++					parent.setRight(successor);
++				}
++				successor.setLeft(current.getLeft());
++			}
++			return true;
++
++		}
++
++		public Node getSuccessor(Node deleleNode) {
++			Node successsor = null;
++			Node successsorParent = null;
++			Node current = deleleNode.getRight();
++			while (current != null) {
++				successsorParent = successsor;
++				successsor = current;
++				current = current.getLeft();
++			}
++			if (successsor != deleleNode.getRight()) {
++				successsorParent.setLeft(successsor.getRight());
++				successsor.setRight(deleleNode.getRight());
++			}
++			return successsor;
++		}
++	}
++}
+Index: .idea/copyright/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/copyright/profiles_settings.xml	(revision )
++++ .idea/copyright/profiles_settings.xml	(revision )
+@@ -0,0 +1,3 @@
++<component name="CopyrightManager">
++  <settings default="" />
++</component>
+\ No newline at end of file
+Index: src/codeWar6/LexicographicalOrderTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/codeWar6/LexicographicalOrderTest.java	(revision )
++++ src/codeWar6/LexicographicalOrderTest.java	(revision )
+@@ -0,0 +1,107 @@
++package codeWar6;
++
++import java.util.Arrays;
++import java.util.Iterator;
++import java.util.LinkedHashSet;
++import java.util.Set;
++import java.util.regex.Pattern;
++
++public class LexicographicalOrderTest {
++
++	public static void main(String[] args) {
++		
++		String a[] = new String[] {"tarp", "mice", "bull"};
++		String b[] = new String[] {"lively", "alive", "harp", "sharp", "armstrong"};
++		String r[] = new String[] {};
++//		LexicographicalOrderTest.inArray(a, b);
++		
++		nbYear(1500000, 0.001, -10000, 2000000);
++//		nbYear(1500000, 0.0, 10000, 2000000);
++//		nbYear(1500, 5, 100, 5000);
++		
++//		autocorrect("I miss you!");
++	}
++
++	public static String[] inArray(String[] array1, String[] array2) {
++		System.out.println(" array1 :: "+Arrays.deepToString(array1));
++		System.out.println(" array2 :: "+Arrays.deepToString(array2));
++		//�ߺ� ������ ���ؼ�.. �ٸ� ����� �ִ��� �����ϱ�
++		Set<String> strSet = new LinkedHashSet<>();
++		
++		for(String commpStr1 : array1) {
++			for(String commpStr2 : array2) {
++				if(commpStr2.contains(commpStr1)) {
++					strSet.add(commpStr1);
++				}
++			}
++		}
++		
++		String[] returnVal = new String[strSet.size()];
++		
++		System.out.println("strSet.size :: "+strSet.size());
++		System.out.println(returnVal.toString());
++		
++		Iterator<String> itr = strSet.iterator();
++		int i = 0;
++		while(itr.hasNext()) {
++			String now = itr.next();
++			System.out.println("now :: "+now);
++			returnVal[i] = now;
++			i++;
++		}
++		
++		System.out.println("returnVal length : "+returnVal.length);
++		System.out.println(" returnVal :: "+Arrays.deepToString(returnVal));
++		Arrays.sort(returnVal);
++		System.out.println(" returnVal :: "+Arrays.deepToString(returnVal));
++		return returnVal;
++	}
++	
++	//growth of population
++	//https://www.codewars.com/kata/growth-of-a-population/solutions/java
++	public static int nbYear(int p0, double percent, int aug, int p) {
++		
++		int start = p0;
++		int result = 0;
++		int i = 0;
++		
++		do {
++			result = start + (int)(start * percent/100) + aug;
++			start = result;
++			i++;
++		} while(p > result);
++		System.out.println("year :: "+i);
++		return i;
++	}
++	
++	//Evil Autocorrect Prank
++	public static String autocorrect(String input) {
++		System.out.println("input : "+input);
++		input = input.toLowerCase();
++		String cdTxt = "your sister";
++		String result = "";
++		
++		for(String now : input.split(" ")) {
++			if(now.equals("you") || now.equals("u")) {
++				now = cdTxt;
++			}
++			if(now.contains("you")) {
++//				int youIdx = now.indexOf("you");
++//				System.out.println(now.substring(now.indexOf("you")+3, now.length()));
++				Pattern pattern = Pattern.compile(now);
++				pattern.matcher("you");
++			}
++			System.out.println("now :: "+now);
++			result += now + " ";
++		}
++		result = result.substring(0, result.lastIndexOf(" "));
++		
++		return result; // "corrected" input
++	}
++	
++	//Buying a car
++	public static int[] nbMonths(int startPriceOld, int startPriceNew, int savingperMonth, double percentLossByMonth) {
++		// your code
++		return null;
++	}
++}
+Index: src/customAbstract/ProcessorTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/customAbstract/ProcessorTest.java	(revision )
++++ src/customAbstract/ProcessorTest.java	(revision )
+@@ -0,0 +1,15 @@
++package customAbstract;
++
++public class ProcessorTest {
++
++	public static void main(String[] args) {
++		// TODO Auto-generated method stub
++//		YunaAnnotationProcessor processor = new YunaAnnotationProcessor();
++//		processor.init(arg0);
++		
++		ReflectTest test = new ReflectTest();
++//		test.doSomething(c);
++
++	}
++
++}
+Index: src/codeWar6/findEvenIndex.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/codeWar6/findEvenIndex.java	(revision )
++++ src/codeWar6/findEvenIndex.java	(revision )
+@@ -0,0 +1,177 @@
++package codeWar6;
++
++import java.util.Arrays;
++
++public class findEvenIndex {
++
++	public static void main(String[] args) {
++//		int[] arr = new int[] {1,2,3,4,3,2,1};
++//        int[] arr = {1,100,50,-51,1,1};
++//        int[] arr = {1,2,3,4,5,6};
++//        int[] arr = {20,10,30,10,10,15,35};
++//        int[] arr = {-8505, -5130, 1926, -9026};
++//        int[] arr = {2824, 1774, -1490, -9084, -9696, 23094};
++//        int[] arr = {4, 5, 6, 7, 8, 9, 10, 9, 8, 7, 6, 5, 4};
++		
++//		System.out.println("resutl :: "+findEvenIndex(arr));
++		
++//		String[] s1 = new String[]{"hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"};
++//        String[] s2 = new String[]{"cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"};
++//        String[] s1 = new String[]{"gggbb", "iiqwommmmmmmtt", "yyyywwwwff", "wjjjjff", "xxxxkuuuuzrrcccbbi", "rrjjppwsshhbb", "yyhhh", "uu"};
++//        String[] s2 = new String[]{"vkkkmmmrrrv"};
++//        System.out.println("==== result :: "+mxdiflg(s1, s2));
++        
++		String[] a = {"az", "toto", "picaro", "zone", "kiwi"};
++//		partlist(a);
++//		System.out.println(Arrays.toString(a).replaceAll(",", ""));
++		
++//        int seconds = 0;
++//        int seconds = 60;
++//        int seconds = 359999;
++//        int seconds = 86399;
++//        makeReadable(seconds);
++		String omg = "9.6";
++		String omg2 = "0";
++		if(omg != "" && omg != null) {
++//			int omg3 = Integer.parseInt(omg) * 10;
++			int omg3 = (int)(Double.parseDouble(omg) * 10);
++			omg2 = (int)(Double.parseDouble(omg) * 10) + "";
++		}
++		
++		System.out.println(omg2);
++	}
++
++	//https://www.codewars.com/kata/5679aa472b8f57fb8c000047/train/java
++	//https://www.codewars.com/kata/5679aa472b8f57fb8c000047/solutions/java
++	public static int findEvenIndex(int[] arr) {
++	    // your code
++//		System.out.println(Arrays.toString(arr));
++//		System.out.println(Arrays.stream(arr).sum());
++//		System.out.println(Arrays.stream(arr));
++		
++		int sum1 = 0;
++		int resultIdx = 0;
++		boolean isNow = false;
++		
++		for(int i = 0 ; i < arr.length - 1 ; i++ ) {
++			sum1 += arr[i];
++			System.out.println("-- sum1 == > "+sum1);
++//			resultIdx = compareSum(arr, sum1, i);
++			int sum2 = 0;
++			int arrLength = arr.length;
++			
++			while(arrLength > 0) {
++				int nowIndex = arrLength -1 ;
++				sum2 += arr[nowIndex];
++				System.out.println("sum2 :::: "+sum2 + ", i :: "+i +", nowIndex "+nowIndex);
++				if( (nowIndex - i == 2)  && sum1 == sum2) {
++					System.out.println("---- arrLength  333 :: "+arrLength);
++					isNow = true;
++					resultIdx = nowIndex - 1;
++					break;
++				}
++				arrLength--;
++			}
++			if(isNow) break;
++		}
++		if(!isNow) resultIdx = -1;
++		return resultIdx;
++	}
++	
++	
++	//https://www.codewars.com/kata/5663f5305102699bad000056/train/java
++//https://www.codewars.com/kata/5663f5305102699bad000056/solutions/java
++	public static int mxdiflg(String[] a1, String[] a2) {
++        // your code
++		if(a1.length == 0 || a2.length == 0) {
++			return -1;
++		}
++		
++		int max1 = a1[0].length();
++		int max2 = a2[0].length();
++		int min1 = a1[0].length();
++		int min2 = a2[0].length();
++		
++		for(String str1 : a1) {
++			if(str1.length() > max1) {
++				max1 = str1.length();
++			}
++			if(str1.length() < min1) {
++				min1 = str1.length();
++			}
++		}
++		
++		for(String str2 : a2) {
++			System.out.println("-- str2 : "+str2);
++			if(str2.length() > max2) {
++				max2 = str2.length();
++			}
++			if(str2.length() < min2) {
++				min2 = str2.length();
++			}
++		}
++		System.out.println("max1 :: "+max1+",max2 : "+max2+", min1 : "+min1+", min2 : "+min2);
++		int diff1 = Math.abs(max1 - min2);
++		int diff2 = Math.abs(max2 - min1);
++		System.out.println(" diff1 :: "+diff1 +", diff2 : "+diff2);
++		return diff1 - diff2 > 0 ? diff1 : diff2;
++    }
++	
++	//https://www.codewars.com/kata/parts-of-a-list/train/java
++	public static String[][] partlist(String[] arr) {
++        // your code
++		int cnt = 0;
++		String elem1 = arr[cnt];
++		while( cnt < arr.length ) {
++			if(cnt !=0 && cnt != arr.length - 1 ) {
++				elem1 += " " + arr[cnt];
++			}
++			
++			String comp = Arrays.toString(arr).replaceAll(",", "");
++			comp = "["+ comp.substring(elem1.length() +2, comp.length());
++			System.out.println("comp ::"+comp);
++			System.out.println("-- elem1 :: "+elem1);
++			System.out.println("cnt ::"+cnt);
++			cnt ++;
++		}
++		
++		
++		
++		return null;
++    }
++	
++//	https://www.codewars.com/kata/52685f7382004e774f0001f7/solutions/java
++	public static String makeReadable(int seconds) {
++	    // Do something
++		int hhMax = 99;
++		int hh = seconds / 3600;
++		int mm = 0;
++		int ss = 0;
++		if(seconds % 3600 != 0) {
++			seconds -= hh * 3600;
++			 
++			mm = seconds / 60;
++			if(seconds % 60 != 0) {
++				seconds -= mm * 60;
++				ss = seconds;
++			}
++		} else {
++			if(hh > hhMax) hh = 99;
++		}
++		
++		System.out.println(" == > "+hh+" : "+mm+" : "+ss);
++	    return (hh < 10 ? "0"+hh : hh)+":"+ (mm < 10 ? "0"+mm : mm)+":"+(ss < 10 ? "0"+ss : ss);
++//	    return Integer.toString(seconds);
++	}
++	
++//	https://www.codewars.com/kata/calculate-string-rotation/train/java
++	
++	
++//	https://www.codewars.com/kata/54d7660d2daf68c619000d95/train/java
++	public static String convertFrac(long[][] lst) {
++	    // your code
++		
++		return "";
++	}
++	
++}
+Index: src/codeWar6/KataIntegerPartitions.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/codeWar6/KataIntegerPartitions.java	(revision )
++++ src/codeWar6/KataIntegerPartitions.java	(revision )
+@@ -0,0 +1,54 @@
++/**
++ * 
++ */
++package codeWar6;
++
++import java.util.ArrayList;
++import java.util.List;
++
++import org.slf4j.Logger;
++import org.slf4j.LoggerFactory;
++
++/**
++ * @author ������
++ *
++ */
++public class KataIntegerPartitions {
++
++	public static final Logger logger = LoggerFactory.getLogger(KataIntegerPartitions.class);
++	/**
++	 * @param args
++	 */
++	public static void main(String[] args) {
++		// TODO Auto-generated method stub
++		getPartitions(5);
++	}
++	
++	private static void getPartitions(int num) {
++		
++		int temp = num;
++		int omg = 0;
++		StringBuffer sb = new StringBuffer();
++//		List<Integer> tempList = new ArrayList<>();
++		while ( (num--) > 0) {
++			logger.debug("--");
++			System.out.println("--"+(omg++));
++//			System.out.println("1 �ڸ� :" + temp);
++			
++			sb.append(temp);
++			sb.append(",");
++			System.out.println(sb);
++			if(temp > 1) {
++				
++				getPartitions( temp - 1 );
++			}
++			
++			if(temp != num) {
++				System.out.println("============================");
++				sb = new StringBuffer();
++			}
++		}
++		
++	}
++
++}
